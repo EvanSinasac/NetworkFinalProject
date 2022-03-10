@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{7a6846fe-7465-4d36-87ce-1c0b36e405da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{68ce6982-f537-43f7-827a-ad5f008609e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{de0cf015-1d3b-401b-9bee-f618fa238e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{6060db89-857c-44d8-ab6e-eb97cf0fdf19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\VAOManager">
+      <UniqueIdentifier>{b3914ae1-2dab-4cfe-b8c8-868aa73d2d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager">
+      <UniqueIdentifier>{6ae09c84-25b5-48e6-b980-6a1e01c25bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Shaders">
+      <UniqueIdentifier>{6d8637e1-28ef-441e-bc80-8532ec2163f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Manager">
+      <UniqueIdentifier>{6eb3fb38-036d-4131-b989-be1c0cdd825b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\C24BitBMPpixel.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\cBasicTextureManager.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\CTextureFromBMP.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cGLFWKeyboadModifiers.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\C24BitBMPpixel.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\cBasicTextureManager.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\CTextureFromBMP.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\assets\shaders\fragShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\geomShader.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\vertShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\common\assets\lights.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\common\assets\worldFile.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
